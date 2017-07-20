@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600|Roboto:500');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600|Martel+Sans:700');
 
 
 :root {
@@ -30,6 +30,7 @@
     --bg-linear-gray:linear-gradient(-226deg, #545454 0%, #29292A 100%);
 
 
+    /*Define grid stuff here for both mobile and desktop */
     /*Grids*/
     --mobile-grid-column-gap:20px;
     --mobile-grid-row-gap:20px;
@@ -37,8 +38,11 @@
 
     /*fonts*/
     --primary-font: 'Open Sans', sans-serif;
-    --secondary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Martel Sans', sans-serif;
 
+
+    /*Here we can start setting up our base margins and padding that we'll use throughout the website*/
+    /*This is really important because it will keep everything tight and aligned consistently */
 
     /*Layout*/
     --nav-height-mobile:80px;
