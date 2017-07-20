@@ -1,3 +1,4 @@
+/*Import your fonts at the top*/
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600|Martel+Sans:700');
 
 
@@ -19,7 +20,6 @@
 
     /*Secondary colors*/
 
-    /*--secondary-color-blue:#232735;*/
     --secondary-color:#232735;
     --secondary-blue:#27B9C2;
 
@@ -29,17 +29,14 @@
     /*Gradients*/
     --bg-linear-gray:linear-gradient(-226deg, #545454 0%, #29292A 100%);
 
-
     /*Define grid stuff here for both mobile and desktop */
     /*Grids*/
     --mobile-grid-column-gap:20px;
     --mobile-grid-row-gap:20px;
 
-
     /*fonts*/
     --primary-font: 'Open Sans', sans-serif;
     --secondary-font: 'Martel Sans', sans-serif;
-
 
     /*Here we can start setting up our base margins and padding that we'll use throughout the website*/
     /*This is really important because it will keep everything tight and aligned consistently */
@@ -51,17 +48,17 @@
 
 html, body
 {
+    /*Add primary font to the html and body so that every element you that needs it can just inherit it*/
     font-family: var(--primary-font);
-    margin: 0;
 }
 
-
-
+/*Remove ugly default border and background from buttons*/
 button {
     border:none;
     background: none;
-
 }
+
+/*Remove gross default  blue/orange outline on button click */
 button:focus {
     outline: none;
 }
