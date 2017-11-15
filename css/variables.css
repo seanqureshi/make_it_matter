@@ -28,6 +28,8 @@
 
     /*Gradients*/
     --bg-linear-gray:linear-gradient(-226deg, #545454 0%, #29292A 100%);
+    --bg-linear-secondary:radial-gradient(50% 100%, #C4CEDF 50%, #D5DBE7 100%);
+
 
     /*Define grid stuff here for both mobile and desktop */
     /*Grids*/
